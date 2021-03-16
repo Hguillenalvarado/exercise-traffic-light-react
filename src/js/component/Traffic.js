@@ -8,7 +8,7 @@ export default class Traffic extends React.Component {
 		};
 	}
 	render() {
-		console.log(this.state);
+		let redExtraClass = "";
 		if (this.state.clickedLight == "red") redExtraClass = "selected";
 		let yellowExtraClass = "";
 		if (this.state.clickedLight == "yellow") yellowExtraClass = "selected";
